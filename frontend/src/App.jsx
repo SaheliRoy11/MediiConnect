@@ -11,7 +11,7 @@ import Navbar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="mx-4 sm:mx-[10%]">
+    <div>
       <Navbar /> {/* will appear in every page */}
       <Routes>
         <Route path="/" element={<Home />} />
