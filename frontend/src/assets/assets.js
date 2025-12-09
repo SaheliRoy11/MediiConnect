@@ -31,12 +31,14 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+import Dermatologist from './Dermatologist.png'
+import Gastroenterologist from './Gastroenterologist.png'
+import General_physician from './General_physician.png'
+import Gynaecologist from './Gynaecologist.png'
+import Neurologist from './Neurologist.png'
+import Pediatricians from './Pediatricians.png'
+import Dentist from "./Dentist.png"
+import Ophthalmologist from "./Ophthalmologist.png"
 
 
 export const assets = {
@@ -63,28 +65,45 @@ export const assets = {
 export const specialityData = [
     {
         speciality: 'General physician',
-        image: General_physician
+        image: General_physician,
+        desc: "Primary care for everyday health needs"
     },
     {
-        speciality: 'Gynecologist',
-        image: Gynecologist
+        speciality: 'Gynaecologist',
+        image: Gynaecologist,
+        desc: "Women’s reproductive and hormonal care"
     },
     {
         speciality: 'Dermatologist',
-        image: Dermatologist
+        image: Dermatologist,
+        desc: "Skin, hair, and nail care"
     },
     {
         speciality: 'Pediatricians',
-        image: Pediatricians
+        image: Pediatricians,
+        desc: "Health care for infants and children"
     },
     {
         speciality: 'Neurologist',
-        image: Neurologist
+        image: Neurologist,
+        desc: "Brain, nerve, and spine disorders"
     },
     {
         speciality: 'Gastroenterologist',
-        image: Gastroenterologist
+        image: Gastroenterologist,
+        desc: "Digestive and stomach health"
     },
+    {
+        speciality: 'Dentist',
+        image: Dentist,
+        desc: "Oral, teeth, and gum treatments"   
+    },
+    {
+        
+        speciality: 'Ophthalmologist',
+        image: Ophthalmologist,
+        desc: "Eye care, vision checks, and treatments"   
+    }
 ]
 
 export const doctors = [
