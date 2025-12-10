@@ -1,4 +1,5 @@
-import { assets, doctors } from "../assets/assets";
+import { assets } from "../assets/assets";
+import {useAppContext} from "../context/AppContext";
 import { useNavigate } from "react-router-dom";
 
 const bgColors = [
@@ -9,6 +10,7 @@ const bgColors = [
 ];
 
 function TopDoctors() {
+  const {doctors} = useAppContext();
   const navigate = useNavigate();
 
   return (
