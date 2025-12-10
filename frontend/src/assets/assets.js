@@ -40,6 +40,7 @@ import Neurologist from './Neurologist.png'
 import Pediatricians from './Pediatricians.png'
 import Dentist from "./Dentist.png"
 import Ophthalmologist from "./Ophthalmologist.png"
+import banner_bg from "./banner_bg.webp";
 
 
 export const assets = {
@@ -61,7 +62,8 @@ export const assets = {
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    razorpay_logo,
+    banner_bg
 }
 
 export const specialityData = [
