@@ -7,6 +7,7 @@ export default {
         primary: "#2e5ac5",
         ice: "#f5f7ff",
         textColor: "#232323",
+        textMuted: "#6b7280",
         lightBlue: "#cfd7f6",
         lavenderMist: "#dad5f3",
         peachVeil: "#f8d7ba",
