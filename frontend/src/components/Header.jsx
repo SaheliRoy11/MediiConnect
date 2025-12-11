@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 
 function Header() {
   return (
-    <div className="w-full bg-hero-gradient -mt-5 flex flex-col md:flex-row flex-wrap px-6 md:px-10 lg:px-20">
+    <div className="w-full bg-hero-gradient flex flex-col md:flex-row flex-wrap px-6 md:px-10 lg:px-20">
 
       {/* -----left side ------ */}
       <div className="md:w-1/2 flex flex-col justify-center items-start gap-5 m-auto relative">

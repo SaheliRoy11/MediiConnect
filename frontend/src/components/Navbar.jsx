@@ -9,7 +9,7 @@ function Navbar() {
   const [token, setToken] = useState(true); //only when we have a token we are logged in
 
   return (
-    <div className="flex items-center justify-around text-sm py-2 mb-5 bg-primary">
+    <div className="flex items-center justify-around text-sm py-2 bg-primary">
       <img
         src={assets.logo}
         alt="Logo"
