@@ -14,6 +14,7 @@ function Navbar() {
         src={assets.logo}
         alt="Logo"
         className="w-[280px] h-18 cursor-pointer"
+        onClick={() =>navigate('/')}
       />
 
       <ul className="hidden md:flex items-start gap-7 font-medium">
