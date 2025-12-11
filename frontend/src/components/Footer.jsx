@@ -40,7 +40,7 @@ function Footer() {
             <p className="text-blue-50 font-semibold mb-2">SERVICES</p>
             <ul>
               {specialityData.map((item) => (
-                <li className="my-1">
+                <li className="my-1" key={item.speciality}>
                   <Link
                     to={`/doctors/${item.speciality}`}
                     key={item.speciality}
