@@ -32,14 +32,14 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.png'
-import Gastroenterologist from './Gastroenterologist.png'
-import General_physician from './General_physician.png'
-import Gynaecologist from './Gynaecologist.png'
-import Neurologist from './Neurologist.png'
-import Pediatricians from './Pediatricians.png'
-import Dentist from "./Dentist.png"
-import Ophthalmologist from "./Ophthalmologist.png"
+import Dermatology from './Dermatology.png'
+import Gastroenterology from './Gastroenterology.png'
+import Internal_medicine from './Internal_medicine.png'
+import Gynaecology from './Gynaecology.png'
+import Neurology from './Neurology.png'
+import Pediatrics from './Pediatrics.png'
+import Dentistry from "./Dentistry.png"
+import Ophthalmology from "./Ophthalmology.png"
 import banner_bg from "./banner_bg.webp";
 
 
@@ -68,44 +68,44 @@ export const assets = {
 
 export const specialityData = [
     {
-        speciality: 'General physician',
-        image: General_physician,
+        speciality: 'Internal Medicine',
+        image: Internal_medicine,
         desc: "Primary care for everyday health needs"
     },
     {
-        speciality: 'Gynaecologist',
-        image: Gynaecologist,
+        speciality: 'Gynaecology',
+        image: Gynaecology,
         desc: "Women’s reproductive and hormonal care"
     },
     {
-        speciality: 'Dermatologist',
-        image: Dermatologist,
+        speciality: 'Dermatology',
+        image: Dermatology,
         desc: "Skin, hair, and nail care"
     },
     {
-        speciality: 'Pediatricians',
-        image: Pediatricians,
+        speciality: 'Pediatrics',
+        image: Pediatrics,
         desc: "Health care for infants and children"
     },
     {
-        speciality: 'Neurologist',
-        image: Neurologist,
+        speciality: 'Neurology',
+        image: Neurology,
         desc: "Brain, nerve, and spine disorders"
     },
     {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist,
+        speciality: 'Gastroenterology',
+        image: Gastroenterology,
         desc: "Digestive and stomach health"
     },
     {
-        speciality: 'Dentist',
-        image: Dentist,
+        speciality: 'Dentistry',
+        image: Dentistry,
         desc: "Oral, teeth, and gum treatments"   
     },
     {
         
-        speciality: 'Ophthalmologist',
-        image: Ophthalmologist,
+        speciality: 'Ophthalmology',
+        image: Ophthalmology,
         desc: "Eye care, vision checks, and treatments"   
     }
 ]
